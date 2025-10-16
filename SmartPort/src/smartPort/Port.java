@@ -65,7 +65,11 @@ public void createMatrix(int[][] travelTime){ {
 }
     // Dijkstra's Algorithm in Java
 
-    public class Dijkstra {
+   
+    }
+
+
+ public class Dijkstra {
 
     public static void dijkstra(int[][] graph, int source) {
         int count = graph.length;
@@ -96,7 +100,7 @@ public void createMatrix(int[][] travelTime){ {
         }
 
     }
-
+ 
     // Finding the minimum distance
     private static int findMinDistance(int[] distance, boolean[] visitedVertex) {
         int minDistance = Integer.MAX_VALUE;
@@ -112,6 +116,5 @@ public void createMatrix(int[][] travelTime){ {
     }
 
     }
-    }
-
+}
 
