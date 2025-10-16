@@ -71,7 +71,7 @@ public void createMatrix(int[][] travelTime){ {
 
  public class Dijkstra {
 
-    public static void dijkstra(int[][] graph, int source) {
+    public void dijkstra(int[][] graph, int source) {
         int count = graph.length;
         boolean[] visitedVertex = new boolean[count];
         int[] distance = new int[count];
