@@ -1,0 +1,10 @@
+PortName, ItemCount, Item1, Item2
+A,2,apples,oranges
+B,1,bananas
+C,2,apples,strawberries
+D,2,oranges,pineapple
+E,1,strawberries
+F,2,bananas,pineapple
+G,1,apples
+L,2,oranges,strawberries
+Z,2,bananas,apples

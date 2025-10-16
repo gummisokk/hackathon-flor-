@@ -1,0 +1,6 @@
+ShipName,StartPort,StartTime,RequestCount,Request1,Request2
+SaltyMcSaltface,A,0,2,pickup:apples:10,deliver:bananas:4
+BananaBarge,B,1,2,pickup:bananas:8,deliver:strawberries:6
+FloatingFruitcake,G,0,1,pickup:strawberries:5
+CaptainCrunch,E,2,2,pickup:strawberries:15,deliver:pineapple:3
+pineappleExpress,L,1,1,pickup:oranges:12
