@@ -1,0 +1,6 @@
+Item,HandlingTime
+apples,1
+bananas,1.5
+oranges,1.2
+pineapple,2.5
+strawberries,0.8
