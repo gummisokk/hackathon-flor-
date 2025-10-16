@@ -2,6 +2,7 @@ package smartPort;
 
 import java.io.File;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class App {
 
@@ -35,5 +36,11 @@ public class App {
                 ports[i].addRequest(line[4 + j]);
             }
         }
+
+        int[][] travelTime = new int[P][P];
+        for (int i = 0; i < P; i++) {
+            travelTime[i] = Arrays.stream(scanner.nextLine().split(",")).mapToInt(Integer::parseInt).toArray();
+        }
+
     }
 }
