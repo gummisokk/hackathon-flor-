@@ -2,6 +2,8 @@ package smartPort;
 
 import java.util.Scanner;
 
+import javax.sound.sampled.Port;
+
 public class App {
 
     public static void main(String[] args) throws Exception {
@@ -15,8 +17,11 @@ public class App {
 
         for (int i = 0; i < P; i++) {
             //les inn info om portane
-            //ports[i] =
-
+            String[] line = scanner.nextLine().split(",");
+            ports[i] = new Port(line[0]);
+            for (int j = 0; j < Integer.parseInt(line[1]); j++) {
+                ports[i].addItem(line[2 + j]);
+            }
         }
     }
 }
