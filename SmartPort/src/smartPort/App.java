@@ -1,6 +1,7 @@
 package smartPort;
 
 import java.io.File;
+import static java.lang.Float.parseFloat;
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -42,5 +43,11 @@ public class App {
             travelTime[i] = Arrays.stream(scanner.nextLine().split(",")).mapToInt(Integer::parseInt).toArray();
         }
 
+        //handlingTimes
+        for (int i = 0; i < 5; i++) {
+            String[] line = scanner.nextLine().split(",");
+            Items.items.put(line[0], parseFloat(line[1]));
+
+        }
     }
 }
